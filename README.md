@@ -23,7 +23,7 @@
    - After the video starts, you’ll be prompted to define a region by clicking on the video frame.
    - Press the 'f' key once you’ve marked at least four points to create a polygonal region.
    - The system will now monitor this region and send alerts if a person stays within it for the specified duration
-   - 
+     
 ## 1. Model Selection and Training Data 💻
 
 - **Model Selection:**  
