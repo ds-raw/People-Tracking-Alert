@@ -5,6 +5,25 @@
 - 📦 **Multi-object tracking** and **region-based alerting** via Telegram.
 - ⚙️ **Customizable Region Selection** for monitoring specific areas.
 
+## 🚀 How to Run This Program
+- Prerequisites 📋
+- Python 3.8+ installed.
+- YOLOv8 by Ultralytics. You can install it using pip.
+- OpenCV for image and video processing.
+- Telegram Bot API token (create your bot on Telegram using BotFather).
+- Other Dependencies as listed below.
+
+1. Clone the Repository
+2. Install Dependencies 📦
+   Make sure you have all required Python libraries installed. You can do this by running:
+   - pip install ultralytics opencv-python-headless numpy python-telegram-bot asyncio
+3. Update the TELEGRAM_TOKEN and CHAT_ID values in the script with your bot's API token and your chat ID.
+4. Run the Program ▶️
+5. Region Selection 🖼️
+   - After the video starts, you’ll be prompted to define a region by clicking on the video frame.
+   - Press the 'f' key once you’ve marked at least four points to create a polygonal region.
+   - The system will now monitor this region and send alerts if a person stays within it for the specified duration
+   - 
 ## 1. Model Selection and Training Data 💻
 
 - **Model Selection:**  
