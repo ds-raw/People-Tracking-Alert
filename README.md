@@ -4,7 +4,11 @@
 - 🔍 **Real-time Person Detection** with YOLOv8.
 - 📦 **Multi-object tracking** and **region-based alerting** via Telegram.
 - ⚙️ **Customizable Region Selection** for monitoring specific areas.
-  
+
+### Video Link
+- Original Video: https://www.youtube.com/watch?v=xBS8cnJh8G0&list=LL&index=1
+- Input and Output: https://drive.google.com/drive/folders/1d5JrnfiU6xWoRKhsXyiulfnnUDBNwCHH
+
 **Prerequisites 📋**
 - Python 3.8+ installed.
 - YOLOv8 by Ultralytics. You can install it using pip.
@@ -61,6 +65,3 @@ The system uses BoT-SORT to track multiple people effectively. This advanced alg
 
 💡 **Future Enhancements**:  
 - Real-time **notifications via multiple platforms**, including SMS and email 📧.
-
-### Video Link
-- Input and Output: https://drive.google.com/drive/folders/1d5JrnfiU6xWoRKhsXyiulfnnUDBNwCHH
