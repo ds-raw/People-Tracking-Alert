@@ -19,7 +19,7 @@
   YOLOv8 shines with high precision in identifying people, even in complex or crowded environments 🏙️. It can detect individuals quickly while maintaining strong performance across various lighting conditions 🌇.
   
 - **Tracking Performance:**  
-  The system assigns unique IDs to each person using a distance-based tracking method. For those seeking cutting-edge tracking accuracy, this can be upgraded with advanced algorithms like **SORT** or **BoT-SORT** 🔄.
+  The system tracks each detected person and assigns unique IDs using BoT-SORT, the default algorithm, combining motion and appearance data for robust tracking 🔄. Alternatively, the powerful ByteTrack can be enabled to enhance multi-object tracking 🚶‍♂️🚶‍♀️.
 
 ## 3. The Logic Behind 🔍🤔
 
@@ -36,11 +36,9 @@ To determine how long a person stays within a predefined region, the system foll
 
 ### 🚶‍♀️ Multi-Object Tracking with BoT-SORT 🔄
 
-Currently, the tracking system uses a distance-based method to assign unique IDs to people. However, for a more advanced solution, **BoT-SORT** can be integrated 🛠️. BoT-SORT combines motion and appearance data, delivering more robust tracking in complex scenes with multiple moving objects.
+The system uses BoT-SORT to track multiple people effectively. This advanced algorithm blends motion and appearance data for superior performance, ensuring accurate tracking even with complex scenes or occlusions 🛠️.
 
 ---
 
 💡 **Future Enhancements**:  
-- Integration with **BoT-SORT** for more accurate multi-object tracking.
-- Adding an adjustable **alert threshold** to fine-tune how long a person must stay in the region before sending an alert.
 - Real-time **notifications via multiple platforms**, including SMS and email 📧.
