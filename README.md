@@ -4,15 +4,15 @@
 - 🔍 **Real-time Person Detection** with YOLOv8.
 - 📦 **Multi-object tracking** and **region-based alerting** via Telegram.
 - ⚙️ **Customizable Region Selection** for monitoring specific areas.
-
-## 🚀 How to Run This Program
-- Prerequisites 📋
+  
+**Prerequisites 📋**
 - Python 3.8+ installed.
 - YOLOv8 by Ultralytics. You can install it using pip.
 - OpenCV for image and video processing.
 - Telegram Bot API token (create your bot on Telegram using BotFather).
 - Other Dependencies as listed below.
 
+## 🚀 How to Run This Program
 1. Clone the Repository
 2. Install Dependencies 📦
    Make sure you have all required Python libraries installed. You can do this by running:
