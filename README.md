@@ -61,3 +61,6 @@ The system uses BoT-SORT to track multiple people effectively. This advanced alg
 
 💡 **Future Enhancements**:  
 - Real-time **notifications via multiple platforms**, including SMS and email 📧.
+
+### Video Link
+- Input and Output: https://drive.google.com/drive/folders/1d5JrnfiU6xWoRKhsXyiulfnnUDBNwCHH
